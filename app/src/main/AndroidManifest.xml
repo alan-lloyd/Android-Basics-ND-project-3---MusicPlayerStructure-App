@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="androidbasicsnd.lloyd.alan.com.udacity.musicalstructureapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectTracks"
+            android:label="@string/play_it_and_see_button" />
+        <activity
+            android:name=".PurchaseMusic"
+            android:label="@string/purchase_music_button" />
+        <activity
+            android:name=".BandInfo"
+            android:label="@string/band_info_button" />
+        <activity
+            android:name=".AudioBooks"
+            android:label="@string/audio_books_button" />
+    </application>
+</manifest>
+

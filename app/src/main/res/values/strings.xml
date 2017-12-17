@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_description">Hear and download tracks by the great rock band Led Zeppelin</string>
+    <string name="app_name">Musical Structure App</string>
+    <string name="play_it_and_see_button">Select tracks</string>
+    <string name="play_it_and_see_descriptive_text">Some Led Zep audio tracks can be streamed online. Some of the best are available for you now! (browser access to our list of free faves on YouTube)</string>
+    <string name="download_purchased_music_info">Inspect the contents of Led Zep\'s finest albums - yours to purchase and download now (mp3 files or CD discs)</string>
+    <string name="purchase_music_button">Get Led Zep albums!</string>
+    <string name="band_info">Information about the band members, Led Zep throughout its best years, and music info.(to a list of selected articles)</string>
+    <string name="band_info_button">Band Info</string>
+    <string name="audio_books">Buy the best audio books about Led Zep - our list includes the latest publications and revelations (links to relevant online bookstores)</string>
+    <string name="audio_books_button">audio books</string>
+    <string name="select_tracks_intent_text">This page comprises of URI links to audio files that can be streamed online by the user, typically by calling a browser when clicking on a link. It would always  have another link to the App \'purchase\' area - and a clickable icon of the Led Zep album from which the streamed tune was from. This list would not encourage any \'searching\' or full direct access to another website (such as YouTube), with a relevant tune appearing to be hosted on the App Intent page. The audio/video links on YouTube would be done via its "Android Player API".
+        This \"enables you to incorporate video playback functionality into your Android applications. The API defines methods for loading and playing YouTube videos (and playlists) and for customizing and controlling the video playback experience.\"   </string>
+    <string name="band_info_intent_text">"Band Info would be a tailor-made index linking to articles, photos, websites, other apps with info about the band. The files and external links to files would be stored online, with user access being facilitated via e.g. java.net.* and android.net.* APIs.</string>
+    <string name="audio_books_intent_text">This would use the same procedures as track/album purchase (intent via \'get Led Zep albums\' button).</string>
+    <string name="purchase_music_intent_text">As the number of tracks is a lot less than one thousand, and albums no more than 20, then storing data and links to it might best go in an SQLite database. Android Developers site mentions \'The recommended method to create a new SQLite database is to create a subclass of SQLiteOpenHelper and override the onCreate method, in which you can execute a SQLite command to create tables in the database\'. A  shopping cart would use the db data. Maybe the App business would merely claim commission and refer users to other online shopping sites to buy their goods. Once a customer has selected their albums or tracks to buy, they will select \'checkout\' in the normal way, which will go to an express Intent to a secure commercial payments processor. This process will be integrated by use of Android Pay API.</string>
+
+</resources>

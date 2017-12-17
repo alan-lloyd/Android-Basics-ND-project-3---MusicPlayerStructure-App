@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="androidbasicsnd.lloyd.alan.com.udacity.musicalstructureapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/app_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/app_description"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/play_it_and_see"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="6dp"
+            android:paddingTop="8dp"
+            android:text="@string/play_it_and_see_descriptive_text"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/textOnPrimary" />
+
+        <Button
+            android:id="@+id/play_it_and_see_button"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorSecondary"
+            android:paddingBottom="16dp"
+            android:text="@string/play_it_and_see_button"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/download_purchased_music_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="6dp"
+            android:paddingTop="16dp"
+            android:text="@string/download_purchased_music_info"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/textOnPrimary" />
+
+        <Button
+            android:id="@+id/purchase_music_button"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorSecondary"
+            android:paddingBottom="16dp"
+            android:text="@string/purchase_music_button"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/band_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="6dp"
+            android:paddingTop="16dp"
+            android:text="@string/band_info"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/textOnPrimary" />
+
+        <Button
+            android:id="@+id/band_info_button"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorSecondary"
+            android:paddingBottom="16dp"
+            android:text="@string/band_info_button"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/audio_books"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="6dp"
+            android:paddingTop="16dp"
+            android:text="@string/audio_books"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/textOnPrimary" />
+
+        <Button
+            android:id="@+id/audio_books_button"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorSecondary"
+            android:text="@string/audio_books_button"
+            android:textAllCaps="true"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</ScrollView>
